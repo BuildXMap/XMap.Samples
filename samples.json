@@ -23,69 +23,13 @@
   ],
   "Samples": [
     {
-      "Id": "customer-to-contact",
-      "File": "customer-to-contact.zip",
+      "Id": "function-getmetadata",
+      "File": "function-getmetadata.zip",
       "Category": "getting-started",
-      "Title": "Customer to contact",
-      "Description": "Turns a CRM customer (XML) into an address-book contact (XML). Copies values, writes a fixed value, joins first and last name, lower-cases the e-mail address and looks up whether the customer is active.",
+      "Title": "Use XMap function GetMetadata",
+      "Description": "Learn how to use GetMetadata function. GetMetadata is used when you want to pass additional inputs to map which is not available in the input message",
       "Tags": [
-        "Copy values",
-        "Constant",
-        "Concatenate",
-        "Lower case",
-        "Lookup"
-      ]
-    },
-    {
-      "Id": "product-feed-to-catalog",
-      "File": "product-feed-to-catalog.zip",
-      "Category": "getting-started",
-      "Title": "Product feed to shop catalog",
-      "Description": "Loads a supplier's product feed (JSON) into a web shop catalog (JSON). Loops over the products and their colors, writes prices and stock as numbers, works out whether each product is in stock and counts the products.",
-      "Tags": [
-        "Loop",
-        "Nested loop",
-        "Number format",
-        "Condition",
-        "Count"
-      ]
-    },
-    {
-      "Id": "web-order-to-pick-list",
-      "File": "web-order-to-pick-list.zip",
-      "Category": "loops-and-conditions",
-      "Title": "Web order to pick list",
-      "Description": "Turns a web shop order (JSON) into a warehouse pick list (XML). Leaves out digital products, sorts the picks by warehouse location, gives express orders a high priority and only adds gift wrapping when the customer asked for it.",
-      "Tags": [
-        "Loop",
-        "Filter",
-        "Sort",
-        "Condition"
-      ]
-    },
-    {
-      "Id": "purchase-order-to-sales-order",
-      "File": "purchase-order-to-sales-order.zip",
-      "Category": "working-with-variables",
-      "Title": "Purchase order to sales order",
-      "Description": "Turns an XML purchase order into a JSON sales order, using the variables lineTotal and orderTotal to add up the line and order totals. Includes an example purchase order to test the map with.",
-      "Tags": [
-        "Loop",
-        "Variables",
-        "Totals"
-      ]
-    },
-    {
-      "Id": "timesheets-to-payroll-summary",
-      "File": "timesheets-to-payroll-summary.zip",
-      "Category": "advanced",
-      "Title": "Timesheets to payroll summary",
-      "Description": "Summarises a week of loose time entries (XML) per employee for payroll (XML). Groups the entries by employee and by project, adds up the hours, splits them into regular hours and overtime above 40, and totals the overtime across everyone.",
-      "Tags": [
-        "Group by",
-        "Variables",
-        "Totals",
-        "Condition"
+        "GetMetadata"
       ]
     }
   ]
