@@ -19,6 +19,11 @@
       "Id": "advanced",
       "Title": "Advanced",
       "Description": "Larger maps with loops, conditions, variables and custom functions, for users who know the editor."
+    },
+    {
+      "Id": "master-samples",
+      "Title": "Master samples",
+      "Description": "Four reference maps, one per conversion, that together use every map function, every condition and nearly every kind of node. Open them to see how any part of the editor is used."
     }
   ],
   "Samples": [
@@ -30,6 +35,69 @@
       "Description": "Learn how to use GetMetadata function. GetMetadata is used when you want to pass additional inputs to map which is not available in the input message",
       "Tags": [
         "GetMetadata"
+      ]
+    },
+    {
+      "Id": "master-purchase-order-to-invoice",
+      "File": "XMap-Master-1-XmlToXml-PurchaseOrderToInvoice.zip",
+      "Category": "master-samples",
+      "Title": "Master 1 - Purchase order to invoice (XML to XML)",
+      "Description": "Turns a purchase order (XML) into an invoice (XML) using every kind of XML node: constant, link, function, variable and question elements and attributes, records written only when they have content, and a default written only when nothing else was. Uses every loop (plain, distinct, first match, sorted, grouped, over child elements, counted from 1 to 3) and every way to work with variables: set once, changed under a condition, filled per loop item or per regex match, and updated while looping for running totals and counters.",
+      "Tags": [
+        "XML to XML",
+        "All loops",
+        "Variables",
+        "Group by",
+        "Sort",
+        "Conditions",
+        "Running totals"
+      ]
+    },
+    {
+      "Id": "master-shipment-to-tracking",
+      "File": "XMap-Master-2-XmlToJson-ShipmentToTracking.zip",
+      "Category": "master-samples",
+      "Title": "Master 2 - Shipment to tracking (XML to JSON)",
+      "Description": "Turns a carrier's shipment message (XML) into a tracking document (JSON) using every date, time and text function. Converts date formats and time zones, adds days, months and years, finds the next working day, week numbers and the first and last event, and cleans up text: trim, pad, cut, replace, change case, regular expressions and empty-or-null handling.",
+      "Tags": [
+        "XML to JSON",
+        "Date and time",
+        "Time zones",
+        "Text functions",
+        "Regex",
+        "Date conditions"
+      ]
+    },
+    {
+      "Id": "master-sales-ledger-to-report",
+      "File": "XMap-Master-3-JsonToJson-SalesLedgerToReport.zip",
+      "Category": "master-samples",
+      "Title": "Master 3 - Sales ledger to report (JSON to JSON)",
+      "Description": "Turns a sales ledger (JSON) into a finance report (JSON) using every math function, every kind of JSON node (as text, number or true/false) and every lookup. Translates country codes with a value map from reference data (included in the zip) and shows the four things a missing key can give. Also uses a fixed lookup table, switch, if-then-else, path-or-default, map-or-throw, a GUID, map metadata and an environment variable.",
+      "Tags": [
+        "JSON to JSON",
+        "Math",
+        "Value map",
+        "Reference data",
+        "Lookup",
+        "Switch",
+        "Metadata"
+      ]
+    },
+    {
+      "Id": "master-customer-profile-to-crm-contact",
+      "File": "XMap-Master-4-JsonToXml-CustomerProfileToCrmContact.zip",
+      "Category": "master-samples",
+      "Title": "Master 4 - Customer profile to CRM contact (JSON to XML)",
+      "Description": "Turns a web shop customer profile (JSON) into a CRM contact (XML). Counts, sums and joins all the values a source path finds, looks up the region and account manager in an XML table passed in as map metadata, and loops over JSON arrays and over the properties of a JSON object.",
+      "Tags": [
+        "JSON to XML",
+        "Count",
+        "Sum",
+        "Join",
+        "XML lookup",
+        "Metadata",
+        "Loop"
       ]
     }
   ]
