@@ -26,17 +26,7 @@
       "Description": "Four reference maps, one per conversion, that together use every map function, every condition and nearly every kind of node. Open them to see how any part of the editor is used."
     }
   ],
-  "Samples": [
-    {
-      "Id": "function-getmetadata",
-      "File": "function-getmetadata.zip",
-      "Category": "getting-started",
-      "Title": "Use XMap function GetMetadata",
-      "Description": "Learn how to use GetMetadata function. GetMetadata is used when you want to pass additional inputs to map which is not available in the input message",
-      "Tags": [
-        "GetMetadata"
-      ]
-    },
+  "Samples": [   
     {
       "Id": "master-purchase-order-to-invoice",
       "File": "XMap-Master-1-XmlToXml-PurchaseOrderToInvoice.zip",
